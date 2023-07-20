@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/buttonBuatFileExternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buat File di External" />
+
+    <Button
+        android:id="@+id/buttonUbahFileExternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonBuatFileExternal"
+        android:text="Ubah File di External" />
+
+    <Button
+        android:id="@+id/buttonBacaFileExternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonUbahFileExternal"
+        android:text="Baca File di External" />
+
+    <Button
+        android:id="@+id/buttonHapusFileExternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonBacaFileExternal"
+        android:text="Hapus File di External" />
+
+    <TextView
+        android:id="@+id/textBacaExternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonHapusFileExternal"
+        android:text="Hasil Baca File" />
+
+</RelativeLayout>
